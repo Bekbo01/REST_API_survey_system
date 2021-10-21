@@ -61,7 +61,7 @@ curl --location --request GET 'http://localhost:8000/api/login/' \
 
 ### Чтобы создать опрос:
 * Request method: POST
-* URL: http://localhost:8000/api/surveysApp/create/
+* URL: http://localhost:8000/api/poll/create/
 ```
 curl --location --request POST 'http://localhost:8000/api/poll/create/' \
 --header 'Authorization: Token %userToken' \
