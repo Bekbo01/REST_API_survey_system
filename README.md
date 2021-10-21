@@ -197,7 +197,7 @@ curl --location --request PATCH 'http://localhost:8000/api/answer/update/[pk]' \
 ### Удаляем ответ:
 * Request method: DELETE
 * URL: http://localhost:8000/api/answer/update/[pk]/
-```
+
 
 ### Просматриваем ответы:
 * Request method: GET
@@ -205,3 +205,4 @@ curl --location --request PATCH 'http://localhost:8000/api/answer/update/[pk]' \
 ```
 curl --location --request GET 'http://localhost:8000/api/answer/view/[pk]' \
 --header 'Authorization: Token %userToken'
+```
